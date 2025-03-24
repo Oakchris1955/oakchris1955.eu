@@ -1,6 +1,6 @@
-# `blog.oakchris1955.eu`
+# `oakchris1955.eu`
 
-Source for my blog website
+Source for my website
 
 ## License
 
