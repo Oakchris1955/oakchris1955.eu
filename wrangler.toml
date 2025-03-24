@@ -1,0 +1,7 @@
+# Top-level configuration
+name = "oakchris1955-eu"
+compatibility_date = "2025-03-24"
+
+routes = [
+  { pattern = "oakchris1955.eu", custom_domain = true }
+]
