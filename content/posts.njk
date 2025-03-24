@@ -1,0 +1,12 @@
+{% if links | length %}
+<ul class="postlist">
+{%- for post in collections.posts | reverse %}
+	<li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+		<time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("yyyy-LL-dd - H:mm") }}</time>:
+        <a href="{{ post.url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+	</li>
+{%- endfor %}
+</ul>
+{% else %}
+Nothing to see here (yet)
+{% endif %}

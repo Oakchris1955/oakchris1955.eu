@@ -1,0 +1,41 @@
+---
+title: Oakchris1955's corner on the Internet
+---
+
+{# This way we can decrease the size of css #}
+{% set css %}
+{% include "css/index.css" %}
+{% include "css/nav.css" %} 
+{% include "css/dark.css" %} 
+{% endset %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    <link rel="shortcut icon" type="image/bmp" href="/favicon.ico">
+    <style> {{ css | cssmin | safe }} </style>
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav">
+          {% for link in nav_links %}
+            <li class="nav-item"><a href="{{ link.url }}"{% if link.url == page.url %} aria-current="page"{% endif %}>{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </header>
+    <hr>
+    <main>
+      {{ content | safe }}
+    </main>
+    <hr>
+    <footer>
+        &copy; 2025 Oakchris1955
+    </footer>
+  </body>
+</html>
