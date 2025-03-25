@@ -1,6 +1,8 @@
 import CleanCSS from "clean-css";
 import sitemap from "@quasibit/eleventy-plugin-sitemap";
+
 import pluginFilters from "./_config/filters.js";
+import { genSitemap } from "./_config/sitemapUtils.js";
 
 export default function (eleventyConfig) {
   eleventyConfig.addFilter("cssmin", function (code) {
@@ -12,6 +14,13 @@ export default function (eleventyConfig) {
       hostname: "https://oakchris1955.eu",
     }
   });
+  eleventyConfig.addCollection("sitemap", async (collectionsApi) => {
+    genSitemap("./public");
+		return [
+      ...collectionsApi.getAll(),
+      ...genSitemap("./public")
+    ];
+	});
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy({"public": "/"});
 
