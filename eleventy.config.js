@@ -3,7 +3,6 @@ import sitemap from "@quasibit/eleventy-plugin-sitemap";
 import pluginFilters from "./_config/filters.js";
 
 export default function (eleventyConfig) {
-  console.log(eleventyConfig)
   eleventyConfig.addFilter("cssmin", function (code) {
 		return new CleanCSS({level: 2}).minify(code).styles;
 	});
