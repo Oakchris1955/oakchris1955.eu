@@ -1,0 +1,12 @@
+---
+permalink: css/theme.css
+layout: null
+---
+
+{% set css %}
+{% include "css/index.css" %}
+{% include "css/nav.css" %}
+{% include "css/dark.css" %}
+{% endset %}
+
+{{ css | cssmin | safe }}

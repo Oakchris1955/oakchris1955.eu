@@ -2,20 +2,13 @@
 title: Oakchris1955's corner on the Internet
 ---
 
-{# This way we can decrease the size of css #}
-{% set css %}
-{% include "css/index.css" %}
-{% include "css/nav.css" %} 
-{% include "css/dark.css" %} 
-{% endset %}
-
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/bmp" href="/favicon.ico">
-    <style> {{ css | cssmin | safe }} </style>
+    <link rel="stylesheet" href="/css/theme.css">
     <title>{{ title }}</title>
   </head>
   <body>
