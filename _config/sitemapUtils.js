@@ -28,7 +28,7 @@ export function genSitemap(directory) {
 
     return {
       url: path.relative(directory, filePath),
-      modified: new Date(fileStats.mtimeMs)
+      date: new Date(fileStats.mtimeMs)
     }
   })
 
