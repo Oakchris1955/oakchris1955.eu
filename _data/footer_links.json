@@ -3,5 +3,10 @@
     "title": "Sitemap",
     "url": "/sitemap.xml",
     "blank": true
+  },
+  {
+    "title": "Site source",
+    "url": "https://github.com/Oakchris1955/oakchris1955.eu/",
+    "blank": true
   }
 ]
