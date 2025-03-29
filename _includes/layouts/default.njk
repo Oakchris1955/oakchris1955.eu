@@ -15,7 +15,7 @@ title: Oakchris1955's corner on the Internet
     <header>
       <nav>
         <ul class="nav">
-          {% for link in nav_links %}
+          {% for link in header_links %}
             <li class="nav-item"><a href="{{ link.url }}"{% if link.url == page.url %} aria-current="page"{% endif %}>{{ link.title }}</a></li>
           {% endfor %}
         </ul>
@@ -27,7 +27,14 @@ title: Oakchris1955's corner on the Internet
     </main>
     <hr>
     <footer>
-        &copy; 2025 Oakchris1955
+      <nav style="font-size: smaller" class="plain-links">
+        <ul class="nav">
+          {% for link in footer_links %}
+            <li class="nav-item"><a href="{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+      &copy; 2025 Oakchris1955
     </footer>
   </body>
 </html>

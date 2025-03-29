@@ -45,3 +45,8 @@ hr {
   margin: 0 var(--side-margin);
   width: calc(100% - 2 * var(--side-margin));
 }
+
+.plain-links a {
+  color: black;
+  text-decoration: underline !important;
+}
