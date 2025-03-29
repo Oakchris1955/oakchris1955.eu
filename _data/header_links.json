@@ -1,14 +1,17 @@
 [
   {
     "title": "Home",
-    "url": "/"
+    "url": "/",
+    "blank": false
   },
   {
     "title": "Posts",
-    "url": "/posts/"
+    "url": "/posts/",
+    "blank": false
   },
   {
     "title": "About",
-    "url": "/about/"
+    "url": "/about/",
+    "blank": false
   }
 ]

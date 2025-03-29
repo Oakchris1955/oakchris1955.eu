@@ -1,6 +1,7 @@
 [
   {
     "title": "Sitemap",
-    "url": "/sitemap.xml"
+    "url": "/sitemap.xml",
+    "blank": true
   }
 ]
