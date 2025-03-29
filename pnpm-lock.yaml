@@ -11,9 +11,6 @@ importers:
       '@11ty/eleventy':
         specifier: ^3.0.0
         version: 3.0.0
-      '@11ty/eleventy-plugin-rss':
-        specifier: ^2.0.3
-        version: 2.0.3
       '@quasibit/eleventy-plugin-sitemap':
         specifier: ^2.2.0
         version: 2.2.0
@@ -40,9 +37,6 @@ packages:
   '@11ty/eleventy-plugin-bundle@3.0.1':
     resolution: {integrity: sha512-mskptUoN7PY+rv7DCH3ZwnvMc9aFBGEHHBjmlu+WGde6ySaa43qsLqjseX6RRijDILxp3EiYQ9XnDmmsSnoqIw==}
     engines: {node: '>=18'}
-
-  '@11ty/eleventy-plugin-rss@2.0.3':
-    resolution: {integrity: sha512-ubK97uahCLpKhORLfblgxLcoaNqTcKde1cH8CeRKNTFoUuuDSEjWZtodV9fKrg+uOp5X74dO43z1/io6hhs5Bw==}
 
   '@11ty/eleventy-utils@1.0.3':
     resolution: {integrity: sha512-nULO91om7vQw4Y/UBjM8i7nJ1xl+/nyK4rImZ41lFxiY2d+XUz7ChAj1CDYFjrLZeu0utAYJTZ45LlcHTkUG4g==}
@@ -804,15 +798,6 @@ snapshots:
       posthtml-match-helper: 2.0.3(posthtml@0.16.6)
     transitivePeerDependencies:
       - posthtml
-      - supports-color
-
-  '@11ty/eleventy-plugin-rss@2.0.3':
-    dependencies:
-      '@11ty/eleventy-utils': 2.0.1
-      '@11ty/posthtml-urls': 1.0.1
-      debug: 4.4.0
-      posthtml: 0.16.6
-    transitivePeerDependencies:
       - supports-color
 
   '@11ty/eleventy-utils@1.0.3':
