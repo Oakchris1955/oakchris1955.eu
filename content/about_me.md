@@ -5,8 +5,8 @@ Here's some info about myself:
 
 I am a teen boy from Greece that first discovered programming during the COVID-19 pandemic. You can find more info about my coding passion on my [GitHub page](https://github.com/Oakchris1955/).
 
-When I am not coding on my computer, I usually watch videos, read [Hackaday](https://hackaday.com/) or [the European Edition of The Politico](https://www.politico.eu/), and I sometimes play online games (I particularly play [Valve's games](https://store.steampowered.com/publisher/valve/) and Westwood Studio's [Command & Conquer series](https://store.steampowered.com/franchise/CandC))
+When I am not coding on my computer, I usually watch videos, read [Hackaday](https://hackaday.com/) or [the European Edition of The Politico](https://www.politico.eu/), and I sometimes play video games (I am a big fan of [Valve's games](https://store.steampowered.com/publisher/valve/) and Westwood Studio's [Command & Conquer series](https://store.steampowered.com/franchise/CandC))
 
-Apart from coding and gaming, I also LOVE THE SUMMER. LET ME TELL YOU HOW MUCH I'VE COME TO LOVE AND APPRECIATE THIS WEATHER (also, climate change is a thing, so we have to adapt I guess).
+Apart from coding and gaming, I also love the summer: Nature outside is thriving, there's good weather all the time, etc, etc, (also, climate change is a thing, so we have to adapt anyways I guess).
 
-When it comes to political views, I identify as a progressivist and I am also 100% supportive towards an European Federation
+When it comes to political views, I identify as a progressivist and I am a strong advocate of a European Federation.
