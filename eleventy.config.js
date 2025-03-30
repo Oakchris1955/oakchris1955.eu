@@ -9,6 +9,7 @@ const hostname = "oakchris1955.eu"
 export default function (eleventyConfig) {
   eleventyConfig.setNunjucksEnvironmentOptions({
     trimBlocks: true,
+    lstripBlocks: true,
   });
   eleventyConfig.addFilter("cssmin", function (code) {
     return new CleanCSS({ level: 2 }).minify(code).styles;
