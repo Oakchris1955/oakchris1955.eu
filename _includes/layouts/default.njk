@@ -5,17 +5,7 @@ title: Oakchris1955's corner on the Internet
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="{{ title }}"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:image" content="https://oakchris1955.eu/imgs/avatar.png"/>
-    {% if description %}
-    <meta property="og:description" content="{{ description }}">
-    {% endif %}
-    <link rel="shortcut icon" type="image/bmp" href="/favicon.ico">
-    <link rel="stylesheet" href="/css/theme.css">
-    <title>{{ title }}</title>
+    {% include "layouts/head.njk" | indent %}
   </head>
   <body>
     <header>
