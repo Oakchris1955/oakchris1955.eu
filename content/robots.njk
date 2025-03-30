@@ -1,0 +1,9 @@
+---
+permalink: /robots.txt
+layout: null
+---
+User-agent: *
+{% for path in disallowed_for_bots %}
+Disallow: {{ path }}
+{% endfor %}
+Sitemap: https://{{ hostname }}/sitemap.xml

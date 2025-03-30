@@ -4,25 +4,31 @@ import sitemap from "@quasibit/eleventy-plugin-sitemap";
 import pluginFilters from "./_config/filters.js";
 import { genSitemap } from "./_config/sitemapUtils.js";
 
+const hostname = "oakchris1955.eu"
+
 export default function (eleventyConfig) {
+  eleventyConfig.setNunjucksEnvironmentOptions({
+    trimBlocks: true,
+  });
   eleventyConfig.addFilter("cssmin", function (code) {
-		return new CleanCSS({level: 2}).minify(code).styles;
-	});
+    return new CleanCSS({ level: 2 }).minify(code).styles;
+  });
+  eleventyConfig.globalData["hostname"] = hostname;
   eleventyConfig.addPlugin(sitemap, {
     sitemap: {
       // Hostname is needed when the URLs of the items don't include it.
-      hostname: "https://oakchris1955.eu",
+      hostname: `https://${hostname}/`,
     }
   });
   eleventyConfig.addCollection("sitemap", async (collectionsApi) => {
     genSitemap("./public");
-		return [
+    return [
       ...collectionsApi.getAll(),
       ...genSitemap("./public")
     ];
-	});
+  });
   eleventyConfig.addPassthroughCopy("css");
-  eleventyConfig.addPassthroughCopy({"public": "/"});
+  eleventyConfig.addPassthroughCopy({ "public": "/" });
 
   eleventyConfig.addPlugin(pluginFilters);
 };

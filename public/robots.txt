@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: /posts/
-Sitemap: https://oakchris1955.eu/sitemap.xml
