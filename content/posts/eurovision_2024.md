@@ -1,5 +1,6 @@
 ---
 title: "Eurovision Song Contest 2024: Unfair to the bone"
+date: 2025-05-16T11:11:04+0300
 ---
 
 As we are just 2 days away from the Eurovision Song Contest 2025 finals, I thought I should write an article about a couple of incidents that shook last year's contest. I myself am not a huge fan of the Eurovision, that is, I don't watch fanatically all those interviews with the participants neither do I hear the majority of the songs before the grand final.
