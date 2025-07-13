@@ -14,6 +14,7 @@ Despite all the claims of some sort of incident, it was apparent from the very b
 ## Israel, the Gaza war and the EBU's treatment against pro-Palestinian activists
 
 Before I begin, I want to clarify a couple of things:
+
 - On October 7, 2023, Hamas militants launched a terrorist attack against Israeli citizens on a music festival, claiming about a thousand (1 000) lives and takes hostages with them at least a couple hundred (200)
 - The State of Israel and the Palestinian population have participated in a conflict between them since at least 1948 Arab–Israeli War
 - The State of Israel is currently performing a [genocide](https://archive.today/20250410202716/https://www.un.org/unispal/document/un-special-committee-press-release-19nov24/) against the Palestinian population in the Gaza Strip
