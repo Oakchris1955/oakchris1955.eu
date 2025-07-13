@@ -1,5 +1,6 @@
 import CleanCSS from "clean-css";
 import sitemap from "@quasibit/eleventy-plugin-sitemap";
+import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 
 import pluginFilters from "./_config/filters.js";
 import { genSitemap } from "./_config/sitemapUtils.js";
@@ -32,6 +33,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "public": "/" });
 
   eleventyConfig.addPlugin(pluginFilters);
+  eleventyConfig.addPlugin(syntaxHighlight);
 };
 
 export const config = {

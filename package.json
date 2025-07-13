@@ -10,6 +10,7 @@
   "license": "MIT or CC-BY-NC-ND-4.0",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.1",
     "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
     "clean-css": "^5.3.3",
     "luxon": "^3.5.0"
