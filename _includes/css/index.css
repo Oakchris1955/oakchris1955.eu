@@ -53,3 +53,7 @@ hr {
   color: black;
   text-decoration: underline !important;
 }
+
+p {
+  width: 100%;
+}
