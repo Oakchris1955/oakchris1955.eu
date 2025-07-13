@@ -1,5 +1,5 @@
 ---
-title: "\"Bypassing\" specialization Rust or How I Learned to Stop Worrying and Love Function Pointers"
+title: "\"Bypassing\" specialization in Rust or How I Learned to Stop Worrying and Love Function Pointers"
 date: 2025-07-13T16:28:18+0300
 ---
 
