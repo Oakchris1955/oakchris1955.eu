@@ -10,6 +10,11 @@
     "blank": false
   },
   {
+    "title": "<img srcset=\"/imgs/atom.png 16x\">",
+    "url": "/posts/feed.xml",
+    "blank": true
+  },
+  {
     "title": "About Me",
     "url": "/about_me/",
     "blank": false

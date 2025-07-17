@@ -12,7 +12,7 @@ title: Oakchris1955's corner on the Internet
       <nav>
         <ul class="nav">
           {% for link in header_links %}
-            <li class="nav-item"><a href="{{ link.url }}"{% if link.url == page.url %} aria-current="page"{% endif %} {%if link.blank %} target="_blank"{% endif %}>{{ link.title }}</a></li>
+            <li class="nav-item"><a href="{{ link.url }}"{% if link.url == page.url %} aria-current="page"{% endif %} {%if link.blank %} target="_blank"{% endif %}>{{ link.title | safe }}</a></li>
           {% endfor %}
         </ul>
       </nav>
