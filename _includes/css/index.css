@@ -3,6 +3,7 @@ body {
 
   min-height: calc(100vh - 2 * var(--body-margin));
   min-width: 100vw;
+  max-width: 100vw;
   margin: var(--body-margin);
 }
 
@@ -20,6 +21,10 @@ html, body, body > * {
 body > * {
   box-sizing: border-box;
   width: 100%;
+}
+
+* {
+  max-width: 100%;
 }
 
 main {
@@ -47,6 +52,10 @@ hr {
   --side-margin: 10px;
   margin: 0 var(--side-margin);
   width: calc(100% - 2 * var(--side-margin));
+}
+
+pre {
+  text-wrap: wrap;
 }
 
 .plain-links a {
