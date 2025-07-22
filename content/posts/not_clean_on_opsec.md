@@ -1,6 +1,6 @@
 ---
 title: "\"We are not clean on OpSec, sir\""
-date: 
+date: 2025-07-18T11:49:12.000Z
 ---
 
 The British Broadcast Channel reportedly said that a major data breach is threatening the lives of thousands of Afghans, which are now being secretly relocated to the UK. There have been more severe OpSec fails [this year](https://edition.cnn.com/interactive/2025/03/politics/yemen-war-plans-signal-chat-annotated-dg/index.html) and for that reason I would like to talk a bit about them.
