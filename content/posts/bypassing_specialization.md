@@ -145,7 +145,7 @@ impl<S> FileSystem<S> where S: Read + Seek {
     }
 }
 
-impl<S> MyStruFileSystemct<S> where S: Read + Write + Seek {
+impl<S> FileSystem<S> where S: Read + Write + Seek {
     pub fn from_rw_storage(storage: S) -> Self {
         // code, a lot of code
 
