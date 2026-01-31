@@ -32,6 +32,7 @@ export default function (eleventyConfig) {
   });
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy({ "public": "/" });
+  eleventyConfig.addPassthroughCopy({ "LICENSE*": "/" })
 
   eleventyConfig.addPlugin(pluginFilters);
   eleventyConfig.addPlugin(syntaxHighlight);
