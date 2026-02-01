@@ -8,6 +8,11 @@ overrides:
   brace-expansion@>=1.0.0 <=1.1.11: '>=1.1.12'
   brace-expansion@>=2.0.0 <=2.0.1: '>=2.0.2'
 
+patchedDependencies:
+  '@quasibit/eleventy-plugin-sitemap':
+    hash: 0ffbd51a8f002f0f5d2d60847761619876dba82ef5481a01edf5603ec1c451f9
+    path: patches/@quasibit__eleventy-plugin-sitemap.patch
+
 importers:
 
   .:
@@ -23,7 +28,7 @@ importers:
         version: 5.0.1
       '@quasibit/eleventy-plugin-sitemap':
         specifier: ^2.2.0
-        version: 2.2.0
+        version: 2.2.0(patch_hash=0ffbd51a8f002f0f5d2d60847761619876dba82ef5481a01edf5603ec1c451f9)
       clean-css:
         specifier: ^5.3.3
         version: 5.3.3
@@ -931,7 +936,7 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@quasibit/eleventy-plugin-sitemap@2.2.0':
+  '@quasibit/eleventy-plugin-sitemap@2.2.0(patch_hash=0ffbd51a8f002f0f5d2d60847761619876dba82ef5481a01edf5603ec1c451f9)':
     dependencies:
       array-flat-polyfill: 1.0.1
       sitemap: 6.4.0

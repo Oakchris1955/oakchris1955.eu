@@ -1,0 +1,11 @@
+diff --git a/src/sitemapItem.js b/src/sitemapItem.js
+index a131874f34e0786c60cdf90da6d2092d236924e4..336f530a38545f3eb57362bb50902caebb10463a 100644
+--- a/src/sitemapItem.js
++++ b/src/sitemapItem.js
+@@ -15,6 +15,5 @@ module.exports = function sitemapItem(item, options) {
+   return {
+     ...sitemapData,
+     url: item.url,
+-    lastmod: lastmod(item, options),
+   };
+ };

@@ -24,7 +24,6 @@ export default function (eleventyConfig) {
     }
   });
   eleventyConfig.addCollection("sitemap", async (collectionsApi) => {
-    genSitemap("./public");
     return [
       ...collectionsApi.getAll(),
       ...genSitemap("./public")
