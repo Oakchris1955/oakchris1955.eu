@@ -1,5 +1,5 @@
 # License / Copyright
 
 The content of this website is licensed under the
-[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](/LICENSE-CC-BY-NC-ND-4.0),
-and the underlying source code used to format and display that content is licensed under the [MIT License](/LICENSE-MIT).
+[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](/LICENSE-CC-BY-NC-ND-4.0.txt),
+and the underlying source code used to format and display that content is licensed under the [MIT License](/LICENSE-MIT.txt).
