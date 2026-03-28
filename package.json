@@ -9,7 +9,7 @@
   "author": "Oakchris1955",
   "license": "MIT or CC-BY-NC-ND-4.0",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy": "^3.1.5",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
     "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
@@ -19,7 +19,10 @@
   "pnpm": {
     "overrides": {
       "brace-expansion@>=1.0.0 <=1.1.11": ">=1.1.12",
-      "brace-expansion@>=2.0.0 <=2.0.1": ">=2.0.2"
+      "brace-expansion@>=2.0.0 <=2.0.1": ">=2.0.2",
+      "brace-expansion@>=4.0.0 <5.0.5": ">=5.0.5",
+      "picomatch@<2.3.2": ">=2.3.2",
+      "picomatch@>=4.0.0 <4.0.4": ">=4.0.4"
     },
     "patchedDependencies": {
       "@quasibit/eleventy-plugin-sitemap": "patches/@quasibit__eleventy-plugin-sitemap.patch"
