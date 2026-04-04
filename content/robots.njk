@@ -6,4 +6,12 @@ User-agent: *
 {% for path in disallowed_for_bots %}
 Disallow: {{ path }}
 {% endfor %}
+
+{% for agent in indexing_agents %}
+User-agent: {{agent}}
+{% for path in allowed_for_indexing %}
+Allow: {{path}}
+{% endfor %}
+
+{% endfor %}
 Sitemap: https://{{ hostname }}/sitemap.xml
