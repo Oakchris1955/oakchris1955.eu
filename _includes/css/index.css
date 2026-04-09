@@ -44,6 +44,12 @@ main {
   padding: 0 10%;
 }
 
+@media (min-width: 1000px) {
+  main {
+    padding: 0 25%;
+  }
+}
+
 footer {
   margin: 10px;
 }
