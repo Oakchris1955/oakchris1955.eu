@@ -15,17 +15,5 @@
     "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
     "clean-css": "^5.3.3",
     "luxon": "^3.7.2"
-  },
-  "pnpm": {
-    "overrides": {
-      "brace-expansion@>=1.0.0 <=1.1.11": ">=1.1.12",
-      "brace-expansion@>=2.0.0 <=2.0.1": ">=2.0.2",
-      "brace-expansion@>=4.0.0 <5.0.5": ">=5.0.5",
-      "picomatch@<2.3.2": ">=2.3.2",
-      "picomatch@>=4.0.0 <4.0.4": ">=4.0.4"
-    },
-    "patchedDependencies": {
-      "@quasibit/eleventy-plugin-sitemap": "patches/@quasibit__eleventy-plugin-sitemap.patch"
-    }
   }
 }
